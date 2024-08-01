@@ -1,7 +1,8 @@
-TSC = npx tsc
+BUILD_DIR = ./dist
+LIB_DIR   = ./lib
 
 all:
-	$(TSC)
+	npx webpack --config webpack.config.js
 
 clean:
-	rm -rf build lib
+	rm -rf $(BUILD_DIR) $(LIB_DIR)
