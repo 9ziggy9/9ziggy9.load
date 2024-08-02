@@ -40,10 +40,12 @@ body {
 .down-icon {
     color: #CC2222;
     font-size: 4rem;
+    animation: fadeIn 2s;
 }
 
 .check-icon {
     font-size: 2rem;
+    animation: fadeIn 2s;
 }
 
 .center-field > p {
